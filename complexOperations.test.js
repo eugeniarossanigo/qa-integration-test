@@ -75,7 +75,7 @@ describe('complexOperation - Unit Tests', () => {
             expect(complexOperations.sortArrayOfObjectsByKey('name', 'name')).toBe('The first param should be an array');
         });
         it('second param is a number, not a string', () => {
-            expect(complexOperations.sortArrayOfObjectsByKey([])).toBe('The second param should be an string');
+            expect(complexOperations.sortArrayOfObjectsByKey([{fruit: 'banana'}, {fruit: 'kiwi'}], 2)).toBe('The second param should be an string');
         });
         it('second param not match with array key', () => {
             expect(complexOperations.sortArrayOfObjectsByKey([{animal: 'cat'}, {animal: 'lion'}, {bird: 'parrot'}], 'animal')).toBe('Some elements in the array does not have the animal property');
@@ -106,3 +106,31 @@ describe('complexOperation - Unit Tests', () => {
         });
     });
 });
+
+
+// PRUEBA MOCK
+// describe('complexOperation - Mocking Tests', () => {
+//     describe('checkEmail mocked', () => {
+        
+//     });
+
+//     describe('calculateArea mocked', () => {
+        
+//     });
+    
+//     describe('sumGratherThan mocked', () => {
+        
+//     });
+
+//     describe('intersectionBetweenArrays mocked', () => {
+        
+//     });
+
+//     describe('sortArrayOfObjectsByKey mocked', () => {
+        
+//     });
+
+//     describe('numberOfOddAndEvenNumbers mocked', () => {
+        
+//     });
+// });

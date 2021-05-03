@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1620011431052" clover="3.2.0">
-  <project timestamp="1620011431053" name="All files">
+<coverage generated="1620014250321" clover="3.2.0">
+  <project timestamp="1620014250322" name="All files">
     <metrics statements="82" coveredstatements="81" conditionals="49" coveredconditionals="48" methods="25" coveredmethods="25" elements="156" coveredelements="154" complexity="0" loc="82" ncloc="82" packages="1" files="2" classes="2"/>
     <file name="basicOperations.js" path="/home/euge/euge-repos/qa-integration-test/basicOperations.js">
       <metrics statements="35" coveredstatements="35" conditionals="4" coveredconditionals="4" methods="19" coveredmethods="19"/>
@@ -9,7 +9,7 @@
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="16" type="stmt"/>
       <line num="9" count="1" type="stmt"/>
-      <line num="10" count="6" type="stmt"/>
+      <line num="10" count="7" type="stmt"/>
       <line num="13" count="1" type="stmt"/>
       <line num="14" count="2" type="stmt"/>
       <line num="15" count="2" type="stmt"/>
