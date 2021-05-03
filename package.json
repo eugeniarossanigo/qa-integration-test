@@ -1,0 +1,30 @@
+{
+  "name": "qa-integration-test",
+  "version": "0.0.1",
+  "description": "Eugenia Rossanigo",
+  "main": "basicOperations.js",
+  "scripts": {
+    "test": "jest",
+    "test-coverage": "jest --coverage"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pikymga/qa-integration-test.git"
+  },
+  "author": "Eugenia Rossanigo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pikymga/qa-integration-test/issues"
+  },
+  "homepage": "https://github.com/pikymga/qa-integration-test#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.0",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  }
+}
