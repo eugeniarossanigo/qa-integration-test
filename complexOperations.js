@@ -158,7 +158,7 @@ export const numberOfOddAndEvenNumbers = (array) => {
     }
     const elementsAreNumbers = array.every(isNumber);
     if (!elementsAreNumbers) {
-        return `The array should have only numbers`;
+        return 'The array should have only numbers';
     }
     return {
         odd: getOddNumbersFromArray(array).length,
